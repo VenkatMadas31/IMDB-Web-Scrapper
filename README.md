@@ -19,5 +19,7 @@ The primary goal of this script is to automate the collection of IMDb data for v
 - Just run the cells from start till the end.
 - The cell that gives the 'DATA' dictionary and stores it as a json file is complete and accurate
 - One can change the values of 'Genre' in the same cell and obtain individual jsons for different genres.
-- The last cell (Final JSON Generation) is something I am still working on and some changes are supposed to be done in order to make those cells run accurately.
+- Run the '**Testing JSON Genration**' cell to get the json file with all the required data for the 'Action' Genre
+- Similarly, data for other genres can be obtained via changing index values in **genre_links** and column values in **df_pivoted** respectively.
+- The last cell (**Final JSON Generation**) is something I am still working on and some changes are supposed to be done in order to make those cells run accurately.
 - Moreover, I have tried providing a schema of how my database (the json) file is organised using the JSON Pro Viewer and the database_schema_using_action_genre.png tries to provide an overview of the same.
